@@ -138,6 +138,7 @@ class game_of_15:
 def main():
    window = tk.Tk()
    window.geometry('400x450')
+   window.title ("Game of 15")
    new_game = game_of_15(window)
    new_game.Entry_boxes()
    new_game.Done()
